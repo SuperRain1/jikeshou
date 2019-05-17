@@ -1,0 +1,37 @@
+page{
+  background: #e4e4e4;
+}
+.box{
+  width: 92%;
+  background: white;
+  margin: 40rpx auto 0;
+  border-radius: 12rpx;
+  padding-bottom: 60rpx;
+}
+.box image{
+  display: block;
+  width: 233rpx;
+  height: 56rpx;
+  margin: 0 auto 50rpx;
+  padding-top: 40rpx;
+}
+.box view{
+  width: 100%;
+  text-align: center;
+  font-size: 28rpx;
+  color: black;
+}
+.btn{
+  position: fixed;
+  bottom: 84rpx;
+  width: 92%;
+  left: 4%;
+  right: 4%;
+  height: 90rpx;
+  text-align: center;
+  line-height: 90rpx;
+  color: white;
+  background: #ff4516;
+  font-size: 28rpx;
+  border-radius: 10rpx;
+}

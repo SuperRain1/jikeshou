@@ -1,0 +1,32 @@
+.phone{
+  margin: 196rpx auto 0;
+  overflow: hidden;
+  width: 230rpx;
+}
+.phone image{
+  float: left;
+  width: 64rpx;
+  height: 52rpx;
+  margin-right: 26rpx;
+}
+.phone view{
+  float: left;
+  line-height: 52rpx;
+  font-size: 32rpx;
+}
+.call{
+  text-align: center;
+  color: #000000;
+  font-size: 36rpx;
+  padding: 40rpx 0 154rpx;
+}
+button{
+  width: 202rpx;
+  height: 80rpx;
+  background: #ff4516;
+  line-height: 80rpx;
+  border-radius: 100rpx;
+  color: white;
+  font-size: 24rpx;
+  margin: 0 auto
+}

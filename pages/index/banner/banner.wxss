@@ -1,0 +1,4 @@
+/* pages/index/banner/banner.wxss */
+.slide-image{
+  width: 100%;
+}

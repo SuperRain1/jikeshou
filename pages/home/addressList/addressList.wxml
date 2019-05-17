@@ -1,0 +1,4 @@
+<view class='p' wx:if='{{param.address.city}}'>{{param.address.city}}{{param.address.address}}</view>
+<view class='p' wx:else>空</view>
+<navigator class='menu' url="../address/address"
+    hover-class="navigator-hover" open-type='redirect' class='btn'>修改/新增</navigator>

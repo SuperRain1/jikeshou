@@ -1,0 +1,18 @@
+<view class='p' style='margin-top:80rpx'>请录入您的联系方式</view>
+<view class='p b'>方便我们上门取货</view>
+<view class='list'>
+  <label for='name'>姓名</label>
+  <input type='text' bindinput='getName' id='name' placeholder='请输入您的姓名'></input>
+</view>
+<view class='list'>
+  <label for='phone'>手机号</label>
+  <input type='number' bindinput='getPhone' id='phone' maxlength='11' placeholder='请输入手机号'></input>
+</view>
+<view class='list'>
+  <label for='name'>验证码</label>
+  <input type='text' id='name' bindinput='code' maxlength='6'  placeholder='请输入验证码'></input>
+  <text wx:if='{{!isCode}}' bindtap='getCode'>{{codeName}}</text>
+  <text wx:else>{{codeSec}}s</text>
+</view>
+<view class='jg'>请填写您常用的手机号，绑定成功后不可修改，如需修改请联系管理员</view>
+<view class='btn' bindtap='submitBtn'>提交</view>

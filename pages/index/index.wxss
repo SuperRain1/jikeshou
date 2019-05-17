@@ -1,0 +1,120 @@
+/**index.wxss**/
+swiper{
+  width: 100%;
+  height: 250rpx;
+  margin-top: 35rpx
+}
+swiper image{
+  width: 92%;
+  height: 250rpx;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10rpx;
+}
+.bt{
+  font-size: 40rpx;
+  color: black;
+  line-height: 120rpx;
+  margin-left: 4%;
+}
+.hotCp{
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 16rpx solid #f2f2f2;
+}
+.cpBox{
+  width: 46%;
+  overflow: hidden;
+  float: left;
+  margin-left: 4%;
+  margin-bottom: 66rpx;
+}
+.imgVie{
+  width: 132rpx;
+  height: 132rpx;
+  border: 1rpx solid #f9f9f9;
+  float: left;
+  border-radius: 16rpx; 
+  overflow: hidden;
+}
+.imgVie image{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.right{
+  float: left
+}
+.spBt{
+  width: 170rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 30rpx;
+  margin: 30rpx 0 20rpx 24rpx;
+}
+.cpDet{
+  color: #010101;
+  font-size: 20rpx;
+  margin-left: 24rpx;
+}
+.cpDet text:first-child{
+  color: #ff4420;
+  font-size: 34rpx;
+  margin: 0 4rpx;
+}
+.cpDet text:last-child{
+  color: #cccccc;
+  font-size: 26rpx;
+}
+.gy{
+  overflow: hidden;
+  width: 92%;
+  margin: 0 auto;
+}
+.gy view:first-child{
+  float: left;
+  font-size: 28rpx;
+  color: #cccccc;
+}
+.gy text{
+  font-size: 36rpx;
+  padding: 0 8rpx;
+  color: #ff4420;
+}
+.gy view:last-child{
+  float: right;
+  font-size: 28rpx;
+  color: #ff4420;
+}
+.gy view{
+  line-height: 90rpx;
+}
+.btn{
+  width: 333rpx;
+  height: 100rpx;
+  border-radius: 100rpx;
+  margin: 20rpx auto;
+  background: #ff4420;
+}
+.btn image{
+  float: left;
+  width: 48rpx;
+  margin: 0 auto;
+  height: 48rpx;
+  margin-top: 26rpx;
+  margin-left: 70rpx;
+}
+.btn text{
+  font-size: 34rpx;
+  color: #fff;
+  padding-left: 3px;
+  text-align: center;
+  line-height: 100rpx;
+}
+.ms{
+  text-align: center;
+  width: 100%;
+  color: #e4e4e4;
+  font-size: 26rpx;
+}

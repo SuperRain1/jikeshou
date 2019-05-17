@@ -1,0 +1,7 @@
+<image src="../../../img/call.jpg" style='width:100%;height:266rpx;'></image>
+<view class='phone'>
+  <image src='../../../img/dianhua.png'></image>
+  <view>客服热线</view>
+</view>
+<view class='call'>{{phone}}</view>
+<button bindtap='call'>拨打</button>

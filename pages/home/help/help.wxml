@@ -1,0 +1,8 @@
+<view class='list' wx:for="{{arr}}" wx:key='index'>
+  <view class='question'>
+   {{index+1}}、{{item.help_name}}
+  </view>
+  <view class='answer'>
+    {{item.help_detailed}}
+  </view>
+</view>

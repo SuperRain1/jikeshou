@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/banner/banner",
+    "pages/home/order/plSuc/plSuc",
+    "pages/home/home",
+    "pages/classify/classify",
+    "pages/home/join/join",
+    "pages/home/addressList/addressList",
+    "pages/home/order/order",
+    "pages/index/placeOrder/tjSuc/tjSuc",
+    "pages/home/order/comment/comment",
+    "pages/index/register/register",
+    "pages/home/address/address",
+    "pages/index/placeOrder/placeOrder",
+    "pages/index/placeOrder/map/map",
+    "pages/home/call/call",
+    "pages/home/help/help"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "既客收",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "selectedColor": "#ff4420",
+    "color": "#e4e4e4",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "img/shouye.png",
+        "selectedIconPath": "img/shouye-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "iconPath": "img/fenlei.png",
+        "selectedIconPath": "img/fenlei-active.png",
+        "text": "回收分类"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "img/wode.png",
+        "selectedIconPath": "img/wode-active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置将用于揽件员确认上门回收的位置"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

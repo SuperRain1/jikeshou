@@ -1,0 +1,10 @@
+<view class='box'>
+  <image src='../../../../img/pjSuc.png'></image>
+  <view>感谢您对本次服务的评价</view>
+  <view>平台因您参与而更加美好</view>
+</view>
+<navigator
+    url="/pages/index/index"
+    open-type="switchTab"
+    hover-class="other-navigator-hover"
+    class='btn'>返回首页</navigator>

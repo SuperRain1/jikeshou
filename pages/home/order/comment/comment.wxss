@@ -1,0 +1,59 @@
+page{
+  background: #e4e4e4;
+}
+.box{
+  width: 92%;
+  margin: 20rpx auto 0;
+  background: white;
+  border-radius: 14rpx;
+}
+.bq{
+  width: 92%;
+  display: flex;
+}
+.bq view{
+  flex: 1;
+}
+.bq view image{
+  width: 87rpx;
+  height: 87rpx;
+  display: block;
+  margin: 80rpx auto 30rpx;
+}
+.bq view text{
+  display: block;
+  width: 100%;
+  font-size: 30rpx;
+  color: #000000;
+  text-align: center;
+}
+.section{
+  width: 92%;
+  margin: 100rpx auto 0;
+  padding-bottom: 60rpx;
+}
+.section textarea{
+  display: block;
+  min-height: 300rpx;
+  border: 1rpx solid #e4e4e4;
+  border-radius: 6rpx;
+  line-height: 30rpx;
+  font-size: 26rpx;
+  padding: 20rpx 12rpx;
+  width: 90%;
+  margin: 0 auto;
+}
+.btn{
+  width: 92%;
+  height: 90rpx;
+  text-align: center;
+  line-height: 90rpx;
+  color: white;
+  margin: 100rpx auto 0;
+  background: #ff4516;
+  font-size: 28rpx;
+  border-radius: 10rpx;
+}
+.se{
+  color: #ff4516!important;
+}

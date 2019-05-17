@@ -1,0 +1,40 @@
+<!--pages/home/home.wxml-->
+<view class='top'>
+  <view class='tx'>
+    <open-data class='txData' type="userAvatarUrl"></open-data>
+  </view>
+  <view class='name'>
+    <open-data class='nameData' type="userNickName"></open-data>
+  </view>
+  <view class='phone'>{{phone}}</view>
+</view>
+<navigator class='menu' url="/pages/home/order/order"
+    hover-class="navigator-hover">
+  <image style='width:40rpx;height:40rpx;margin-top:35rpx;' src='../../img/dingdan.png'></image>
+  <text>我的订单</text>
+  <image src='../../img/go.png'></image>
+</navigator>
+<!-- <navigator class='menu' url="/pages/home/addressList/addressList"
+    hover-class="navigator-hover">
+  <image style='width:40rpx;height:40rpx;margin-top:35rpx;' src='../../img/dizhi.png'></image>
+  <text>我的地址</text>
+  <image src='../../img/go.png'></image>
+</navigator> -->
+<navigator class='menu' url="/pages/home/call/call"
+    hover-class="navigator-hover">
+  <image style='width:40rpx;height:40rpx;margin-top:35rpx;' src='../../img/kefu.png'></image>
+  <text>联系客服</text>
+  <image src='../../img/go.png'></image>
+</navigator>
+<navigator class='menu' url="/pages/home/help/help"
+    hover-class="navigator-hover">
+  <image style='width:40rpx;height:40rpx;margin-top:35rpx;' src='../../img/bangzhu.png'></image>
+  <text>帮助中心</text>
+  <image src='../../img/go.png'></image>
+</navigator>
+<navigator class='menu' url="/pages/home/join/join"
+    hover-class="navigator-hover" style='border-top:16rpx solid #e4e4e4'>
+  <image style='width:40rpx;height:40rpx;margin-top:35rpx;' src='../../img/jiaru.png'></image>
+  <text>加入既客</text>
+  <image src='../../img/go.png'></image>
+</navigator>

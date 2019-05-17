@@ -1,0 +1,52 @@
+.top{
+  width: 100%;
+  border-bottom: 16rpx solid #e4e4e4;
+}
+.tx{
+  width: 110rpx;
+  height: 110rpx;
+  border-radius: 50%;
+  margin: 60rpx auto 26rpx;
+  overflow: hidden
+}
+.txData{
+  width: 100%;
+  height: 100%;
+}
+.name{
+  width: 100%;
+  text-align: center;
+  font-size: 32rpx;
+  color: #000000;
+}
+.phone{
+  width: 100%;
+  text-align: center;
+  color: #676767;
+  font-size: 28rpx;
+  margin: 30rpx 0 46rpx;
+}
+.menu{
+  width: 100%;
+  border-bottom: 1rpx solid #e4e4e4;
+  overflow: hidden;
+  height: 110rpx;
+}
+.menu image:first-child{
+  display: block;
+  float: left;
+  margin:0 4%;
+}
+.menu image:last-child{
+  display: block;
+  float: right;
+  width: 30rpx;
+  margin-top: 42rpx;
+  margin-right: 4%;
+  height: 30rpx;
+}
+.menu text{
+  line-height: 110rpx;
+  font-size: 34rpx;
+  color: #000000;
+}

@@ -1,0 +1,56 @@
+.p{
+  font-size: 40rpx;
+  color: #000000;
+  margin-left: 4%;
+}
+.b{
+  margin-top: 30rpx;
+  margin-bottom: 70rpx;
+}
+.list{
+  width: 92%;
+  margin: 0 auto;
+  border-bottom: 1rpx solid #e4e4e4;
+  overflow: hidden;
+  position: relative;
+  height: 134rpx;
+}
+.list label{
+  display: block;
+  padding-left: 2%;
+  float: left;
+  font-size: 28rpx;
+  line-height: 134rpx;
+}
+.list input{
+  width: 65%;
+  line-height: 134rpx;
+  height: 134rpx;
+  float: right;
+  font-size: 28rpx;
+}
+.list text{
+  position: absolute;
+  right: 20rpx;
+  font-size: 28rpx;
+  color:#ff4516;
+  bottom: 45rpx;
+  z-index: 9;
+}
+.btn{
+  width: 92%;
+  margin: 200rpx auto 0;
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: center;
+  color: white;
+  font-size: 28rpx;
+  border-radius: 10rpx;
+  background: #ff4516;
+}
+.jg{
+  width: 92%;
+  font-size: 28rpx;
+  color: rgb(212, 211, 211);
+  margin: 30rpx auto 10rpx;
+}

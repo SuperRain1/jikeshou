@@ -1,0 +1,17 @@
+<view class='leftMenu'>
+  <view wx:for='{{type}}' wx:key='index' class="{{index==active?'active':''}}" data-index='{{index}}' data-id='{{item.category_id}}' bindtap='getType'>{{item.category_name}}</view>
+</view>
+<view class='rightXq'>
+  <!-- <view class='bz'>
+    小瓶：<text>0.4</text>元/个     大瓶：<text>0.6</text>元/个
+  </view> -->
+  <view class='bz'>
+    {{describe.category_detail}}
+  </view>
+  <view class='fl'>
+    <view wx:for="{{goods}}" wx:key="index">
+      <image src='{{host}}{{item.good_img}}'></image>
+      <text>{{item.good_name}}</text>
+    </view>
+  </view>
+</view>

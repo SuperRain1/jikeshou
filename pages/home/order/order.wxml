@@ -1,0 +1,14 @@
+<view class='list' wx:for='{{param.orderBeanList}}' wx:key='index'>
+  <view class='dd'>订单号：{{item.orderno}}
+    <text style='color:#ff4516' wx:if='{{item.status==3}}'>等待上门</text>
+    <text style='color:#ff4516' wx:elif='{{item.status==8 || item.status==7}}'>待接单</text>
+    <text style='color:#ff4516' wx:elif='{{item.status==6}}'>已取消</text>
+    <text style='color:#46b103' wx:elif='{{item.status==1 || item.status==2}}'>交易完成</text>
+    <text style='color:#ff4516' wx:else>订单处理中</text>
+  </view>
+  <view class='time'>下单时间：{{item.create_time}}</view>
+  <view class='pj' wx:if='{{item.status==1}}' data-id='{{item.orderno}}' bindtap='goComment'>评价</view>
+  <view class='pj'  data-index='{{index}}' wx:if='{{item.status==8 || item.status==7}}' data-id='{{item.orderno}}' bindtap='cancelOrder'>取消订单</view>
+   <view class='ypj' wx:if='{{item.status==2}}'>已评价</view>
+  <view class='phone' wx:if='{{item.status==3 && item.signee_phone}}'>联系电话：{{item.signee_phone}}<button data-phone='{{item.signee_phone}}' bindtap='call'>联系Ta</button></view>
+</view>

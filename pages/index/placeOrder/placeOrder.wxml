@@ -1,0 +1,28 @@
+
+<view class='p'>请录入您的联系方式</view>
+<view class='p b'>方便我们上门取货</view>
+<view class='list'>
+  <label for='city'>所在城市</label>
+  <view bindtap='againAdress'>
+    <input type='text' id='city' disabled value='{{province}}{{city}}{{district}}' ></input>
+    <image class='dw' src='../../../img/location.png'></image>
+  </view>
+</view>
+<view class='list'>
+  <label for='xq'>所在小区</label>
+  <input type='text' bindinput='getSite' value='{{site}}' id='xq' placeholder='请输入您所在小区的名称'></input>
+</view>
+<view class='list'>
+  <label for='lou'>楼栋房号</label>
+  <input type='text' bindinput='getAddress' value='{{address}}' id='lou' maxlength='11' placeholder='例如：1号楼1单元1704'></input>
+</view>
+<view class='list'>
+  <label for='lou'>预约时间</label>
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="picker">
+      {{array[index]}}
+    </view>
+  </picker>
+</view>
+
+<view class='btn' bindtap='submitBtn'>提交售卖申请</view>

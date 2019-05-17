@@ -1,0 +1,29 @@
+<view class='type'>
+  <view class="{{type==1?'active':''}}" bindtap='newType' data-type="1">
+    <image wx:if='{{type==1}}' src='../../../img/join.png'></image>
+    <image wx:if='{{type==2}}' src='../../../img/join-s.png'></image>
+    <text>收件人员</text>
+  </view>
+  <view class="{{type==2?'active':''}}" bindtap='newType' data-type="2">
+  <image wx:if='{{type==2}}' src='../../../img/join.png'></image>
+  <image wx:if='{{type==1}}' src='../../../img/join-s.png'></image>
+    <text>揽件人员</text>
+  </view>
+</view>
+<view class='tab'>
+  <view>
+    <label for='name'>姓名</label>
+    <input id='name' type='text' bindinput="bindName" placeholder='请输入姓名'></input>
+  </view>
+  <view>
+    <label for='phone'>手机号</label>
+    <input id='phone' type='number' maxlength='11' bindinput="bindPhone" placeholder='请输入11位手机号'></input>
+  </view>
+  <view>
+    <label for='city'>所在城市</label>
+    <picker mode="region" bindchange="bindRegionChange" value="{{region}}">
+    <input id='city' type='text' disabled placeholder='请选择您所在的城市' value='{{region[0]}}{{region[1]}}{{region[2]}}'></input>    
+  </picker>
+  </view>
+</view>
+<view class='btn' bindtap='newP'>提交</view>

@@ -1,0 +1,14 @@
+<view class='list'>
+  <label for='city'>所在城市</label>
+  <input type='text' id='city' disabled value='{{province}}{{city}}{{district}}'></input>
+  <text bindtap='againAdress'>重新定位</text>
+</view>
+<view class='list'>
+  <label for='xq'>所在小区</label>
+  <input type='text' id='xq' bindinput='getSite' placeholder='请输入您所在小区的名称'></input>
+</view>
+<view class='list'>
+  <label for='lou'>楼栋房号</label>
+  <input type='text' id='lou' bindinput='getFloor' placeholder='例如：1号楼1单元1704'></input>
+</view>
+<view class='btn' bindtap='update'>保存</view>

@@ -1,0 +1,34 @@
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+  <block wx:for="{{param.bannerList}}" wx:key='index'>
+    <swiper-item>
+      <navigator url='{{item.link_url}}'>
+        <image src="{{host}}{{item.img_url}}" class="slide-image" width="355" height="150" />
+      </navigator>
+    </swiper-item>
+  </block>
+</swiper>
+<view class='bt'>热门回收</view>
+<view class='hotCp'>
+  <view class='cpBox' wx:for='{{param.hotgoods}}' wx:key='index'>
+    <view class='imgVie'>
+      <image src="{{host}}{{item.good_img}}"></image>
+    </view>
+    <view class='right'>
+      <view class='spBt'>{{item.good_name}}</view>
+      <view class='cpDet'>
+        <view>￥<text>{{item.good_price}}</text><text>/{{item.goods_unit}}</text></view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class='gy'>
+  <view>
+    公益次数<text>{{orderCount}}</text>次
+  </view>
+  <view bindtap='goOrder'>交易记录</view>
+</view>
+<view class='btn' bindtap='isPhone'>
+  <image src="../../img/huishou.png"></image>
+  <text>上门回收</text>
+</view>
+<view class='ms'>足不出户在线下单</view>

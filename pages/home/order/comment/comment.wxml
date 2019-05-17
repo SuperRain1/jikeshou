@@ -1,0 +1,23 @@
+<view class='box'>
+  <view class='bq'>
+    <view data-type='0' bindtap='changeBq'>
+      <image wx:if="{{active==0}}" src='../../../../img/zan-s.png'></image>
+      <image wx:else src='../../../../img/zan.png'></image>
+      <text class='{{active==0?"se":""}}'>超赞</text>
+    </view>
+    <view data-type='1' bindtap='changeBq'>
+      <image wx:if="{{active==1}}" src='../../../../img/yiban-s.png'></image>
+      <image wx:else src='../../../../img/yiban.png'></image>
+      <text class='{{active==1?"se":""}}'>一般</text>
+    </view>
+    <view data-type='2' bindtap='changeBq'>
+      <image wx:if="{{active==2}}" src='../../../../img/cha-s.png'></image>
+      <image wx:else src='../../../../img/cha.png'></image>
+      <text class='{{active==2?"se":""}}'>差劲</text>
+    </view>
+  </view>
+  <view class="section">
+    <textarea bindblur="pl" auto-height placeholder="请输入您的意见或建议"/>
+  </view>
+</view>
+<view class='btn' bindtap='submitBtn'>提交</view>

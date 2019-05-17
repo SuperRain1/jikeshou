@@ -1,0 +1,18 @@
+<view class='box'>
+  <image class='suc' src='../../../../img/iconSuc.png'></image>
+  <view class='h1'>售卖申请提交成功</view>
+  <image class='x' src='../../../../img/iconX.png'></image>
+  <view wx:if='{{phone}}'>
+    <view class='h2'>上门交易人的电话为:{{phone}}</view>
+    <view class='h2'>Ta会提前与您联系，请保持您的手机畅通</view>
+  </view>
+  <view wx:else>
+    <view class='h2'>系统正在为您匹配收件员</view>
+    <view class='h2'>Ta会提前与您联系，请保持您的手机畅通</view>
+  </view>
+  
+</view>
+<navigator
+    url="/pages/index/index"
+    open-type="switchTab"
+    class='btn'>返回首页</navigator>
